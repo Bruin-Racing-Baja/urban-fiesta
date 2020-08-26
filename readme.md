@@ -26,3 +26,9 @@ The engine is based on data provided be an SAE India team found in the [Mathwork
 The CVT block has the correct shaft orientation but has not been altered in any other way. External blocks account for the inertia of the primary and secondary pulleys
 
 *Future work for this subsystem would involve gathering data to calculate viscous friction coefficients at each sheave, as well as finding some overall efficiency number to account for belt losses in a broad range of operating conditions.*
+
+### Gearbox Subsystem
+
+This subsystem includes the fixed double reduction gears. Two simple gear blocks include the appropriate ratios and are assumed to operate at constant 95% efficiency. The inertias of each gear are accounted for in external blocks.
+
+*No further work is necessary for this subsystem. As an optional addition we could gather data to tune the viscous loss coefficients, but a constant efficiency assumption is probably sufficient for the scope of this model.*
