@@ -17,11 +17,17 @@ get this guy a fuckin puppers
 
 ### Engine Subsystem
 
+This subsystem is built around the generic combustion engine block from Simscape Driveline.
+
 The engine is based on data provided be an SAE India team found in the [Mathworks tutorial](https://www.mathworks.com/videos/modeling-a-vehicle-with-continuously-variable-transmission-1554467867519.html?s_tid=srchtitle) on CVT modeling. The block includes inertia values for the crankshaft and flywheel. The idle and redline speed control values are tuned empirically based on personal experience, as is the external rotational damper block.
+
+The test harness used for tuning is saved in a separate model as `Engine_test.slx`.
 
 *Future work for this subsystem would involve gathering dyno data with known throttle commands and shaping the block response to match this data.*
 
 ### CVT Subsystem
+
+This subsystem is built around the continuously variable transmission block from Simscape Driveline.
 
 The CVT block has the correct shaft orientation but has not been altered in any other way. External blocks account for the inertia of the primary and secondary pulleys
 
