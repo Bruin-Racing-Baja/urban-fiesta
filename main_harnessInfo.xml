@@ -6,7 +6,7 @@
     <P Name="CreatedBy">Tyler</P>
     <P Name="CreatedOn">Thu Aug 20 21:28:03 2020</P>
     <P Name="ModifiedBy">Tyler</P>
-    <P Name="LastSaved">Tue Aug 25 16:48:22 2020</P>
+    <P Name="LastSaved">Tue Aug 25 18:12:33 2020</P>
     <P Name="Owner">39</P>
     <P Name="OwnerType">SS_HARNESS</P>
     <P Name="OwnerPath">Engine</P>
@@ -36,7 +36,7 @@
     <P Name="CustomSourcePath"/>
     <P Name="CustomSinkPath"/>
     <P Name="BlockSIDs">0|3|0|1|2|0|0|0</P>
-    <P Name="OpenGraphs">||Engine_test</P>
+    <P Name="OpenGraphs"/>
     <P Name="ExistingBuildFolder"/>
     <P Name="FunctionInterfaceName"/>
   </Harness>
