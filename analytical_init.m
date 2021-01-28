@@ -29,10 +29,9 @@ r12 = 48/16; % first reduction
 r34 = 48/16; % second reduction
 Ic = 4*.32952 + 2*.07131 + 2*.00068 + 4*.00044 + 2*.00004; % [kg*m^2] inertia of rest of drivetrain
 I2 = Is + Ig1 + Ig2/r12 + Ig3/r12 + Ig4/(r12*r34) + Ic/(r12*r34); % total inertia of driven side
-b2 = .1; % [N*m/(rad/s)] total damping of driven side
+b2 = .001; % [N*m/(rad/s)] total damping of driven side
 
 % initial conditions
+r_init = cvt_low; % cvt ratio initial condition
 w1_init = 1700*(2*pi/60); % [rad/s] engine speed initial condition
-% w2_init = 0*(2*pi/60); % [rad/s] wheel speed initial condition
-r_init = cvt_low;
-w2_init = w1_init/r_init;
+w2_init = w1_init/r_init; % [rad/s] wheel speed initial condition
