@@ -8,6 +8,7 @@ clc;
 
 % open and run simulation
 % open('equiv_analytical.slx');
+eg_ref = 3500;
 simout = sim('equiv_analytical.slx');
 
 %% parse data

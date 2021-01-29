@@ -5,6 +5,9 @@
 % author: Tyler McCown (tylermccown@engineering.ucla.edu)
 % created: 24 January 2021
 
+% fixed simulation timestep
+ts = .01; % [s]
+
 % shift limits
 cvt_low = 4.31;
 cvt_high = .81;
