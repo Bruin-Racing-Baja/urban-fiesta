@@ -6,9 +6,9 @@
 clear;
 clc;
 
-% open and run simulation
-% open('equiv_analytical.slx');
-eg_ref = 3500;
+% configure and run simulation
+eg_ref = 3500; % [rpm] reference engine rpm
+T_max = 30; % [s] simulation duration
 simout = sim('equiv_analytical.slx');
 
 %% parse data
