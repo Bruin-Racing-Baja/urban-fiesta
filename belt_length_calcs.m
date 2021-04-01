@@ -11,10 +11,10 @@ clc;
 
 L = 39.99469; % [in] belt cord length
 c = 10.5; % [in] primary-secondary center-to-center distance
-r_prim_min = .75; % [in] primary sheave minimum radius
-r_prim_max = 3.5; % [in] primary sheave maximum radius
-r_sec_min = 2.02; % [in] secondary sheave minimum radius
-r_sec_max = 4.6; % [in] secondary sheave maximum radius
+r_prim_min = 1.066987364; % [in] primary sheave minimum radius
+r_prim_max = 3.339987364; % [in] primary sheave maximum radius
+r_sec_min = 2.693541875; % [in] secondary sheave minimum radius
+r_sec_max = 4.600667327; % [in] secondary sheave maximum radius
 
 n = 100; % number of points to calculate
 r_prim = linspace(r_prim_min, r_prim_max, n); % vector of primary radius values
