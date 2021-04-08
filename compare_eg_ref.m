@@ -1,6 +1,6 @@
 % compare_eg_ref.m
 % 
-% this script uses equiv_analytical.m to compare the vehicle acceleration
+% this script uses equiv_analytical.slx to compare the vehicle acceleration
 % using various engine reference speeds
 % 
 % author: Tyler McCown (tylermccown@engineering.ucla.edu)
